@@ -11,3 +11,14 @@ const botoes= document.querySelectorAII("button");
   }
   }
   });
+
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
+btnTemaEscuro.addEventlistener("click" , mudaTema);
+function mudaTema(){
+    const corpoPagina = document.body
+    if(corpoPagina.classlist.contains("tema-escuro")) {
+        corpoPagina.classlist.remove ("tema-escuro");
+    } else {
+        corpoPagina.classlit.add("tema-escuro");
+    }
+}
