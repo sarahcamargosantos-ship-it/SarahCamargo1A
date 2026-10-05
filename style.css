@@ -23,28 +23,22 @@ body {
          max-widht: 100vw;
          font-family: var(--fonte-texto);
          background-color: var(--cor-fundo);
-         color: var(
-            text-align: center;
-            max-widht: 800px;
-            margin: 0 auto;
-            border: 5px solid #cf1010;
-            padding: 16px
-             
-        }   
-          
-          main{
-           background-color: #FFFFFF;
-           color: #183c63;
-           text-aling: center;
-           max-widht: 800px;
-           margin: 0 auto;
-           display: flex;
+         color: var(--cor-texto);
+}
+.tema-escuro a{
+         color: var(--cor-secundaria);
+}
+.tema-escuro p{
+         color: var(--cor-texto);
+}
+
+.tema-escuro header h1{
+         color: var(--cor-texto-escuro, #151428);
+}
+.tema-escuro header h1{
+         color: #151428
+}
+
+.btn-tema-escuro{
          
-      }
-  img {
-        width: 80px;
-        height: 80px;
-      }
-      .artigo-autor {
-         font-weight: bold;
-      }
+
